@@ -1,0 +1,5 @@
+vec <- c(10, 25, -5, 42, 7, 0, 18)
+max_value <- max(vec)
+min_value <- min(vec)
+print(max_value)
+print(min_value)
