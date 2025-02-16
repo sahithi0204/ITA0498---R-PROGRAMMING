@@ -1,0 +1,5 @@
+a <- as.numeric(strsplit(readline("Enter 3 numbers for vector a: "), " ")[[1]])
+b <- as.numeric(strsplit(readline("Enter 3 numbers for vector b: "), " ")[[1]])
+c <- as.numeric(strsplit(readline("Enter 3 numbers for vector c: "), " ")[[1]])
+matrix_result <- cbind(a, b, c)
+print(matrix_result)
